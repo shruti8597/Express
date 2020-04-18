@@ -4,6 +4,7 @@
   "description": "AWS Server Side Rendered",
   "main": "index.js",
   "scripts": {
+    "start": "webpack --config webpack.demo.js && node demo",
     "build": "webpack && node express"
   },
   "author": "",
